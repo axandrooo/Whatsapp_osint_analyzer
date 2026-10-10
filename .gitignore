@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+.env
+
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Секреты — НИКОГДА не в репо
+.env
+.env.*
+*.key
+*.pem
+config.secret.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Данные / дампы
+*.sqlite
+*.db
+data/
+logs/
